@@ -159,14 +159,14 @@
         </div>
         <div class="card-section">
             <div class="scard-contain">
-                <div class="scard"><img src="./images/dog1.png" alt="card1"></div>
+                <div class="scard"><img id="dog1" onmouseover="barking()" onmouseleave="barkingstop()" src="./images/dog1.png" alt="card1"></div>
                 <div class="scard-textsec">
                     <h1 class="dogsh1"><strike>$45</strike> $39</h1>
                     <p> <button class="btn-dbg ">Buy</button></p>
                 </div>
             </div>
             <div class="scard-contain">
-                <div class="scard"><img src="./images/dog2.png" alt="card2"></div>
+                <div class="scard"><img onmouseover="barking2()" onmouseleave="barkingstop2()" src="./images/dog2.png" alt="card2"></div>
                 <div class="scard-textsec">
                     <h1 class="dogsh1"><strike>$45</strike> $39</h1>
                     <p> <button class="btn-dbg ">Buy</button></p>
@@ -220,6 +220,41 @@
 
         }
     });
+    let audio1 = new Audio("./music/dog1voive.mp3");
+    let audio2 = new Audio("./music/dog2voice.mp3");
+
+
+    function barking() {
+
+        // let dog1 = document.getElementById("dog1");
+
+        audio1.play();
+
+    }
+
+    function barkingstop() {
+
+        // let dog1 = document.getElementById("dog1");
+
+        audio1.pause();
+
+    }
+
+    function barking2() {
+
+        // let dog1 = document.getElementById("dog1");
+
+        audio2.play();
+
+    }
+
+    function barkingstop2() {
+
+        // let dog1 = document.getElementById("dog1");
+
+        audio2.pause();
+
+    }
 </script>
 
 
