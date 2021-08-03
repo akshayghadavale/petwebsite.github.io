@@ -1,0 +1,557 @@
+/***************************I-PAD*************************/
+
+@media only screen and (min-device-width: 640px) and (max-device-width: 1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .wrapper {
+        width: 100%;
+        height: 426px;
+        background-color: var(--yello-color);
+    }
+    .navbar {
+        width: 100%;
+        height: 15%;
+        background-color: rgb(226, 174, 3);
+        display: flex;
+    }
+    .logo-left {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .logo-left img {
+        width: 18vw;
+        height: 4vh;
+    }
+    .menu-middle {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .searchbox-right {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .navlist {
+        height: 100%;
+        width: 80%;
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .navlist li {
+        text-decoration: none;
+    }
+    .navlist a {
+        font-size: 2vw;
+        text-decoration: none;
+        color: white;
+        font-family: sans-serif;
+        font-weight: 500;
+    }
+    .searchbar {
+        width: 150px;
+        height: 30px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: aliceblue;
+        box-shadow: 0px 2px 8px 1px #000;
+    }
+    input[type="search"] {
+        height: 100%;
+        width: 80%;
+        border: none;
+        background-color: var(--yello-color);
+    }
+    .searchbar ::placeholder {
+        color: black;
+    }
+    .searchbar button {
+        height: 100%;
+        width: 20%;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(19, 230, 54);
+    }
+    .searchbar button img {
+        padding: 4px;
+        width: 100%;
+        height: 100%;
+    }
+    .slider {
+        display: none;
+    }
+    .main-section {
+        width: 100%;
+        height: 75%;
+        display: flex;
+    }
+    .headersec {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .imagesec {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imagesec video {
+        width: 100%;
+        height: 100%;
+    }
+    .textsection {
+        width: 75%;
+        height: 60%;
+    }
+    .textsection h1 {
+        color: white;
+        font-size: 2em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .textsection p {
+        width: 90%;
+        padding-top: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2vh;
+        color: white;
+    }
+    .btn-contain {
+        margin-top: 20px;
+        display: flex;
+        width: 15em;
+        justify-content: space-between;
+    }
+    .btn-all {
+        width: 6em;
+        height: 2em;
+        border: solid 3px white;
+        border-radius: 8px;
+        background-color: transparent;
+        color: white;
+        font-size: 1em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .btnblue {
+        border-color: #00BFCC;
+        background-color: #00BFCC;
+    }
+    .btnyellow {
+        border-color: var(--yello-color);
+        background-color: var(--yello-color);
+        margin-top: 20px;
+    }
+    .white-section {
+        width: 100%;
+        height: 426px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+    }
+    .w-textsection {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .w-imagesection {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .innertext-sec {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .innertext-sec h1 {
+        color: black;
+        font-size: 2rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .innertext-sec p {
+        width: 90%;
+        margin-top: 20px;
+        padding-top: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2vh;
+        color: black;
+    }
+    /* .innertext-sec .btn-all {}
+     */
+    .imagecontain {
+        height: 20rem;
+        width: 20rem;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: violet;
+        box-shadow: -120px 120px 0px -80px var(--yello-color);
+    }
+    .imagecontain::before {
+        content: '';
+        width: 12em;
+        height: 12em;
+        background-color: red;
+        position: relative;
+        left: 20px;
+    }
+    .imagecontain video {
+        min-width: 100%;
+        min-height: 100%;
+    }
+    .sec-yellowsection {
+        width: 100%;
+        height: 568px;
+        background-color: var(--yello-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .headtext-section {
+        width: 60%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .headtext-section h1 {
+        color: white;
+        font-size: 3rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .headtext-section p {
+        text-align: center;
+        width: 90%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.8rem;
+        color: white;
+    }
+    .card-section {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .scard-contain {
+        width: 30rem;
+        height: 30vw;
+        margin: 20px;
+    }
+    .scard {
+        border-radius: 10px;
+    }
+    .scard-textsec {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .scard-textsec h1 {
+        color: white;
+    }
+    .scard-textsec p {
+        color: white;
+        text-align: center;
+        width: 80%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .scard img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    .reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .innertext-sec2 {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .innertext-sec2 h1 {
+        color: black;
+        font-size: 2rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .innertext-sec2 p {
+        width: 90%;
+        margin-top: 20px;
+        padding-top: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2vh;
+        color: black;
+    }
+    .sec2-flex {
+        display: flex;
+        align-items: flex-start;
+    }
+    .whitebg {
+        background-color: white;
+    }
+    .blackfor {
+        color: black;
+    }
+    .whitebg .headtext-section h1 {
+        color: black;
+        text-align: center;
+        margin-top: -30px;
+    }
+    .whitebg .headtext-section p {
+        color: black;
+        margin-top: 30px;
+    }
+    .whitebg .scard-textsec h1 {
+        color: black;
+        font-size: 1.5rem;
+    }
+    .whitebg .scard-textsec p {
+        color: white;
+        line-height: 2rem;
+        margin-top: 20px;
+        font-size: 1.3rem;
+        background-color: var(--yello-color);
+        border: 3px solid black;
+        border-radius: 10px;
+    }
+    .dashboard {
+        width: 100%;
+        height: 213px;
+        background-color: var(--yello-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .dashsec {
+        width: 80%;
+        height: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .dashsec .sec1 {
+        width: 35%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .sec1 img {
+        width: 4rem;
+        height: 4rem;
+    }
+    .textsec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .textsec h2 {
+        margin-bottom: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .lastwhitesec {
+        background-color: white;
+        height: 639px;
+    }
+    .lastwhitesec .headtext-section {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .lastwhitesec .headtext-section p {
+        color: black;
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+    .lastwhitesec .headtext-section h1 {
+        margin-top: 20px;
+        color: black;
+    }
+    .lastwhitesec .scard-contain {
+        width: 24rem;
+        height: 40vw;
+        margin-left: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+    }
+    .lastwhitesec .scard {
+        width: 100%;
+        height: 60%;
+    }
+    .lastwhitesec .scard img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+    }
+    .lastwhitesec .scard-textsec {
+        display: flex;
+        align-items: flex-start;
+    }
+    .lastwhitesec .scard-textsec h1 {
+        margin-left: 20px;
+        color: black;
+        font-size: 1.5vw;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .lastwhitesec .scard-textsec p:first-of-type {
+        margin-left: 20px;
+        color: rgb(39, 105, 226);
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        font-size: 1vw;
+    }
+    .lastwhitesec .scard-textsec p {
+        margin-left: 20px;
+        color: black;
+        display: flex;
+        font-size: 1vw;
+        justify-content: left;
+        text-align: left;
+        align-items: flex-start;
+    }
+    .lastwhitesec .scard-textsec h2 {
+        margin-top: 10px;
+        margin-left: 20px;
+        color: rgb(39, 105, 226);
+        font-size: 1.2vw;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    footer {
+        width: 100%;
+        height: 284px;
+        background-color: #313131;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .maingroupcontainer {
+        position: relative;
+    }
+    .in-footer {
+        width: 90%;
+        height: 70%;
+        display: flex;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .in-footer li {
+        margin-top: 10px;
+        list-style: none;
+        font-size: 1rem;
+        color: white;
+    }
+    .about {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about h1 {
+        color: white;
+        font-size: 1.3rem;
+    }
+    .services h1 {
+        color: white;
+        font-size: 1.3rem;
+    }
+    .services {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .searchcontain {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .searchcontain h1 {
+        color: white;
+        font-size: 2rem;
+    }
+    .searchcontain p {
+        color: white;
+        font-size: 1.3rem;
+        text-align: right;
+    }
+    .searchcontain .textbox-ct {
+        margin-top: 20px;
+        width: 20rem;
+        height: 5rem;
+        display: flex;
+    }
+    .searchcontain .textbox-ct input[type="text"] {
+        width: 80%;
+        height: 100%;
+    }
+    .searchcontain .textbox-ct .btn {
+        width: 20%;
+        height: 100%;
+        background-color: #00bfcb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .searchcontain .textbox-ct .btn img {
+        width: 50%;
+        height: 50%;
+    }
+    .socialmedia {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .socialmedia ul {
+        display: flex;
+    }
+    .socialmedia ul li img {
+        width: 3rem;
+        height: 3rem;
+        margin-left: 10px;
+    }
+}
