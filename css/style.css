@@ -33,9 +33,8 @@
     
     .logo-left img {
         width: 18vw;
-        height: 8vh;
+        height: 56.88px;
     }
-    
     .menu-middle {
         width: 40%;
         height: 100%;
@@ -157,7 +156,7 @@
         width: 90%;
         padding-top: 10px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 3vh;
+        font-size: 21.33px;
         color: white;
     }
     
@@ -175,7 +174,7 @@
         border-radius: 8px;
         background-color: transparent;
         color: white;
-        font-size: 2.5vh;
+        font-size: 17.775px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     
@@ -722,7 +721,7 @@
             margin-top: 20px;
             padding-top: 10px;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 3vh;
+            font-size: 21.33px;
             color: black;
         }
         .dogsh1 {
@@ -825,7 +824,7 @@
             margin-top: 20px;
             padding-top: 10px;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 2vh;
+            font-size: 14.22px;
             color: black;
         }
         .sec2-flex {
